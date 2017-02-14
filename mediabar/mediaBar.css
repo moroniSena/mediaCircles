@@ -1,0 +1,20 @@
+ul.mediaBar {
+	list-style-type: none; 
+}
+ul.mediaBar img {
+	border-radius: 50%;
+	width: 3em;
+	margin-top: .5em;
+	-webkit-transition: all 0.5s;	
+}
+div.mediaBarAside {
+	position:fixed;
+	right:0;
+	margin-top: 10em;
+	margin-right: 1em;
+	z-index: 1000;
+}
+ul.mediaBar img:hover {
+	box-shadow: .3em .3em .2em grey;
+	opacity: .5;
+}

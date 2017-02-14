@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "MediaCircles",
+  "version": "0.1.0",
+  "description": "Adds a media bar to your chrome browser",
+
+"browser_action": {
+
+          "default_icon": {      
+
+            "38": "MediaCircles.png"            // optional
+          }
+      },
+  "content_scripts": [{
+  	"matches": ["<all_urls>"],
+  	"js": ["mediaBar.js"],
+  	"css": ["mediaBar.css"]
+  }]
+ 
+}
